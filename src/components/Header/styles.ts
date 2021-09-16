@@ -21,7 +21,7 @@ export const Header = styled.header`
         padding: 1rem;
         font-size: 3rem;
         font-family: 'Archivo';
-        color: ${colors.fontColor};
+        color: "${colors.fontColor}";
         margin-top: 10rem;
     }
 
@@ -49,7 +49,7 @@ export const Header = styled.header`
                 flex-direction: row;
                 text-decoration: none;
                 font-family: 'Archivo';
-                color: ${colors.fontColor};
+                color: "${colors.fontColor}";
                 font-size: 3rem;
             }
         }
