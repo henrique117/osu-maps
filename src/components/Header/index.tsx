@@ -1,24 +1,25 @@
 import * as S from "./styles"
 import logo from "assets/IMG/Logo.svg"
+import { Link } from "react-router-dom"
 
 const Header = () => {
     return (
         <S.Header>
             <picture>
-                <a href="inicio.html">
+                <Link to="">
                     <img src={logo} alt="" />
-                </a>
+                </Link>
             </picture>
             <div>
                 <ul>
                     <li>
-                        <a href="jumpMaps.html">Jump Maps</a>
+                        <Link to="">Jump Maps</Link>
                     </li>
                     <li>
-                        <a href="streamMaps.html">Stream Maps</a>
+                        <Link to="">Stream Maps</Link>
                     </li>
                     <li>
-                        <a href="techMaps.html">Tech Maps</a>
+                        <Link to="">Tech Maps</Link>
                     </li>
                 </ul>
             </div>

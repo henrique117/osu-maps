@@ -1,6 +1,7 @@
 import { createGlobalStyle } from "styled-components"
 
 export default createGlobalStyle`
+
     @font-face {
     font-family: 'Aclonica';
     src: url('assets/fonts/Aclonica-Regular.ttf') format('truetype');
@@ -28,7 +29,14 @@ export default createGlobalStyle`
     outline: 0;
     box-sizing: border-box;
     font-size: 100%;
-}
+    }
+
+    body {
+        width: 100%;
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
 `
 
 export const colors = {

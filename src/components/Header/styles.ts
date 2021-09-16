@@ -3,6 +3,7 @@ import fundoCima from "assets/IMG/FundoDeCima.svg"
 import { colors } from "styles/GlobalStyle"
 
 export const Header = styled.header`
+
     width: 100%;
     display: flex;
     background-image: url("${fundoCima}");
@@ -53,4 +54,5 @@ export const Header = styled.header`
             }
         }
     }
+
 `
