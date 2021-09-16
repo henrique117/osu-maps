@@ -24,7 +24,7 @@ export const MainPg1 = styled.main`
             font-family: 'Aclonica';
             -webkit-text-stroke-width: 0.1px;
             -webkit-text-stroke-color: ${colors.borderColor};
-            color: ${colors.white};
+            color: white;
             align-items: center;
             justify-content: center;
         }
@@ -40,7 +40,7 @@ export const MainPg1 = styled.main`
         font-family: 'Aclonica';
         -webkit-text-stroke-width: 0.1px;
         -webkit-text-stroke-color: ${colors.borderColor};
-        color: ${colors.white};
+        color: white;
         align-items: center;
         justify-content: center;
     }
