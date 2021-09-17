@@ -2,9 +2,9 @@ import * as S from "./styles"
 
 const Footer = () => {
     return (
-        <S.Footer>
+        <S.Footer1>
             <h1>ESPAÇO PARA ANÚNCIO</h1>
-        </S.Footer>
+        </S.Footer1>
     )
 }
 

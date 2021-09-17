@@ -16,7 +16,7 @@ const Header = () => {
                         <Link to="">Jump Maps</Link>
                     </li>
                     <li>
-                        <Link to="">Stream Maps</Link>
+                        <Link to="/streamMaps">Stream Maps</Link>
                     </li>
                     <li>
                         <Link to="">Tech Maps</Link>

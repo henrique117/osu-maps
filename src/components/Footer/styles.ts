@@ -2,7 +2,7 @@ import styled from "styled-components"
 import fundoBaixo from "assets/IMG/FundoDeBaixo.svg"
 import { colors } from "styles/GlobalStyle"
 
-export const Footer = styled.footer`
+export const Footer1 = styled.footer`
 
     background-image: url(${fundoBaixo});
     width: 100%;
