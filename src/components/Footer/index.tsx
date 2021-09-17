@@ -1,6 +1,6 @@
 import * as S from "./styles"
 
-const Footer = () => {
+const Footer1 = () => {
     return (
         <S.Footer1>
             <h1>ESPAÇO PARA ANÚNCIO</h1>
@@ -8,4 +8,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default Footer1
