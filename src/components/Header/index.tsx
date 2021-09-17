@@ -6,20 +6,26 @@ const Header = () => {
     return (
         <S.Header>
             <picture>
-                <Link to="">
+                <S.A href="/" target="_self">
                     <img src={logo} alt="" />
-                </Link>
+                </S.A>
             </picture>
             <div>
                 <ul>
                     <li>
-                        <Link to="">Jump Maps</Link>
+                        <S.A href="jumpMaps" target="_self">
+                            <h1>Jump Maps</h1>
+                        </S.A>
                     </li>
                     <li>
-                        <Link to="/streamMaps">Stream Maps</Link>
+                        <S.A href="streamMaps" target="_self">
+                            <h1>Stream Maps</h1>
+                        </S.A>
                     </li>
                     <li>
-                        <Link to="">Tech Maps</Link>
+                        <S.A href="techMaps" target="_self">
+                            <h1>Tech Maps</h1>
+                        </S.A>
                     </li>
                 </ul>
             </div>

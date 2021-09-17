@@ -1,10 +1,11 @@
-import { Header, Footer } from "components"
+import { Header, Footer1, MainPg2 } from "components"
 
 const StreamMaps = () => {
     return (
         <>
             <Header />
-            <Footer />
+            <MainPg2 />
+            <Footer1 />
         </>
     )
 }

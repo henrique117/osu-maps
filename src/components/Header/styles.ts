@@ -56,3 +56,7 @@ export const Header = styled.header`
     }
 
 `
+
+export const A = styled.a`
+
+`

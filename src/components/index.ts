@@ -1,3 +1,6 @@
 export { default as Header } from "./Header"
 export { default as MainPg1 } from "./MainPg1"
+export { default as MainPg2 } from "./MainPg2"
+export { default as MainPg3 } from "./MainPg3"
+export { default as MainPg4 } from "./MainPg4"
 export { default as Footer1 } from "./Footer"

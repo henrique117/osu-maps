@@ -1,20 +1,20 @@
 import * as S from "./styles"
-import sidetrackedPic from "assets/IMG/sidetrackedPic.svg"
-import sidetrackedStars from "assets/IMG/sidetrackedStar.svg"
-import heavenPic from "assets/IMG/heavenPic.svg"
-import heavenStars from "assets/IMG/heavenStar.svg"
+import ciderPic from "assets/IMG/ciderPic.svg"
+import ciderStars from "assets/IMG/ciderStar.svg"
+import soundPic from "assets/IMG/soundPic.svg"
+import soundStars from "assets/IMG/soundStar.svg"
 
 const MainPg2 = () => {
     return (
         <S.MainPg2>
-            <h1>Stream Maps</h1>
+            <h1>Tech Maps</h1>
             <section>
                 <picture>
                     <S.A href="" target="_self">
-                        <img src={sidetrackedPic} alt="" />
+                        <img src={ciderPic} alt="" />
                     </S.A>
                     <div>
-                        <img src={sidetrackedStars} alt="" />
+                        <img src={ciderStars} alt="" />
                         <S.A href="" target="_self">
                             <a href="">Sidetracked Day</a>
                         </S.A>
@@ -23,9 +23,9 @@ const MainPg2 = () => {
             </section>
             <section>
                 <picture>
-                    <img src={heavenPic} alt="" />
+                    <img src={soundPic} alt="" />
                     <div>
-                        <img src={heavenStars} alt="" />
+                        <img src={soundStars} alt="" />
                         <p>Ascension to Heaven</p>
                     </div>
                 </picture>
