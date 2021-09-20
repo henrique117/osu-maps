@@ -16,7 +16,7 @@ const MainPg2 = () => {
                     <div>
                         <img src={ciderStars} alt="" />
                         <S.A href="" target="_self">
-                            <a href="">Sidetracked Day</a>
+                            <a href="">Future Cider</a>
                         </S.A>
                     </div>
                 </picture>
@@ -26,7 +26,7 @@ const MainPg2 = () => {
                     <img src={soundPic} alt="" />
                     <div>
                         <img src={soundStars} alt="" />
-                        <p>Ascension to Heaven</p>
+                        <p>Sound Chimera</p>
                     </div>
                 </picture>
             </section>

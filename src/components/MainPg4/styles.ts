@@ -13,7 +13,7 @@ export const MainPg2 = styled.main`
             font-size: 5.5rem;
             color: white;
             -webkit-text-stroke-width: 0.1px;
-            -webkit-text-stroke-color: #003396;
+            -webkit-text-stroke-color: ${colors.borderColor};
             font-family: 'Aclonica';
             text-align: center;
         }
